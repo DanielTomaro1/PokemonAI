@@ -1,1 +1,5 @@
 # PokemonAI
+
+This program is a reinforcement learning-based AI designed to play the classic Pokémon Red game using the PyBoy Game Boy emulator. It employs a Deep Q-Network (DQN) to learn optimal strategies by interacting with the game environment. The AI observes the game screen as its input, processes it to create a simplified state representation, and uses this to decide actions, such as pressing buttons like "A" or directional inputs. These actions aim to maximize rewards, which are defined based on in-game progress, such as moving to new areas, entering battles, or achieving milestones like map changes. The AI learns over time by storing its experiences (state, action, reward, next state) in a memory buffer and improving its decision-making through experience replay. The program is capable of training continuously, managing progress with periodic saving, and recovering from situations where it gets "stuck" in menus or loops. This integration of game emulation and machine learning creates an automated system capable of playing and improving its performance in Pokémon Red autonomously.
+
+Very slow at the moment
